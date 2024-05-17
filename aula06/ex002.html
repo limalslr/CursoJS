@@ -7,7 +7,7 @@
     <style>
         body {
             background-color: rgb(105, 105, 173);
-            color: white;
+            color: white; /*Comentário em CSS*/
             font: normal 20pt arial;
         }
 
@@ -17,22 +17,12 @@
     </style>
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
+    <h1>Olá, mundo!</h1> <!--Comentário em HTML-->
     <p>Já me livrei da maldição!!</p>
     <script>
-        // é para comentar uma linha
-        /* é para comentar várias linhas no código JS*/
-        
-        //Exemplo1: window.alert('Minha mensagem!')
 
-        /*
-        Exemplo2:
-        window.confirm('Está gostando de JS?')
-        window.prompt("Qual é o seu nome?")*/
-
-        window.alert('Minha mensagem!')
-        window.confirm('Está gostando de JS?')
-        window.prompt("Qual é o seu nome?")
+        var nome = window.prompt("Qual é o seu nome?") //Vai perguntar o nome...
+        window.alert('É um grande prazer em te conhecer, ' + nome + '!')
     </script>
 </body>
 </html>
